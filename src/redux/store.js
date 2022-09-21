@@ -1,21 +1,24 @@
 import thunk from 'redux-thunk';
-import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
+import { applyMiddleware } from 'redux';
 import axios from 'axios';
+const API = 'http://localhost:3000/api/v1/messages';
 
-export const fetchMessages = () => async (dispatch) => {
-  await axios.get('http://localhost:3000/api/v1/messages', {
+export const FETCH_MESSAGES = 'FETCH_MESSAGES';
+
+export const getMessages = () => async (dispatch) => {
+  await axios.get(API,{
     headers: {
+      'method': 'GET',
       'Content-Type': 'application/json',
-      Accept: 'application/json',
       'Access-Control-Allow-Origin': '*',
     },
-  })
-    .then((response) => {
-      dispatch({
-        type: 'FETCH_MESSAGES',
-        payload: response.data,
-      });
+  }).then((response) => {
+    dispatch({
+      type: 'FETCH_MESSAGES',
+      payload: response.data,
     });
+  })
 };
 
 const messagesReducer = (state = [], action) => {
