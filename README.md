@@ -1,69 +1,60 @@
 # Getting Started with Create React App
 >This is an implementation of a connection between a Ruby on Rails back-end and React front-end, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- `React`
+- `Redux`
+- `Axios`
+- `NPM`
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Install
 
-### `npm test`
+- Ruby
+- Ruby on Rails(as a gem)
+- Postgresql database
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy of the app, run the following commands in your terminal:
+- `git clone https://github.com/stanleySimeon/hello-react-front-end.git`
+- `cd /hello-react-front-end`
+- `bundle install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the following commands to run the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `npm install`
+- `npm run build`
+- `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In your browser, go to
 
-### `npm run eject`
+- `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 👤 **Stanley SIMEON**
+- GitHub: [Github](https://github.com/stanleySimeon)
+- Twitter: [Twitter](https://twitter.com/mstanleyme)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/stanleysimeon/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Contributions, issues, and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](https://github.com/stanleySimeon/hello-rails-back-end/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed
