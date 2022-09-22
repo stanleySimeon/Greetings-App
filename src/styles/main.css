@@ -744,6 +744,10 @@ select {
 .font-bold {
   font-weight: 700;
 }
+.text-mySpend-Text {
+  --tw-text-opacity: 1;
+  color: rgb(67 75 84 / var(--tw-text-opacity));
+}
 .text-mySpend {
   --tw-text-opacity: 1;
   color: rgb(55 120 194 / var(--tw-text-opacity));
