@@ -4,7 +4,7 @@ import { applyMiddleware } from 'redux';
 import axios from 'axios';
 const API = 'http://localhost:3000/api/v1/messages';
 
-export const FETCH_MESSAGES = 'FETCH_MESSAGES';
+export const GET_MESSAGES = 'FETCH_MESSAGES';
 
 export const getMessages = () => async (dispatch) => {
   await axios.get(API,{
@@ -15,7 +15,7 @@ export const getMessages = () => async (dispatch) => {
     },
   }).then((response) => {
     dispatch({
-      type: 'FETCH_MESSAGES',
+      type: 'GET_MESSAGES',
       payload: response.data,
     });
   })
@@ -23,7 +23,7 @@ export const getMessages = () => async (dispatch) => {
 
 const messagesReducer = (state = [], action) => {
   switch (action.type) {
-    case 'FETCH_MESSAGES':
+    case 'GET_MESSAGES':
       return action.payload;
     default:
       return state;

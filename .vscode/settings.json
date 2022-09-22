@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
+        "Chakra",
+        "haml",
         "middlewares",
-        "reduxjs"
+        "reduxjs",
+        "tailwindcss",
+        "@tailwind"
     ]
 }
