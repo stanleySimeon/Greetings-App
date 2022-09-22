@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 >This is an implementation of a connection between a Ruby on Rails back-end and React front-end, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Link to the rails API
+`https://github.com/stanleySimeon/hello-react-front-end.git`
+
+
 ## Built With
 
 - `React`
@@ -49,7 +53,7 @@ In your browser, go to
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/stanleySimeon/hello-rails-back-end/issues).
+Feel free to check the [issues page](https://github.com/stanleySimeon/hello-react-front-end/issues).
 
 ## Show your support
 
