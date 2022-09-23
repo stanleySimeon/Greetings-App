@@ -4,7 +4,7 @@ import './styles/main.css';
 
 function App() {
   return (
-    <div className="App container w-full bg-gradient-to-r from-purple to-black hover:from-sky-600 hover:to-black md:w-8/12 h-screen flex flex-col justify-center items-center m-auto">
+    <div className="App container-fluid px-4 md:p-0 w-full bg-gradient-to-r from-purple to-black hover:from-sky-600 hover:to-black h-screen flex flex-col justify-center items-center">
       <Greetings />
     </div>
   );
