@@ -2,7 +2,7 @@
 >This is an implementation of a connection between a Ruby on Rails back-end and React front-end, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Link to the rails API
-[Rails API](https://github.com/stanleySimeon/hello-react-front-end.git)
+[Rails API](https://github.com/stanleySimeon/hello-rails-back-end.git)
 
 
 ## Built With
