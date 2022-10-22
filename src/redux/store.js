@@ -2,7 +2,7 @@ import thunk from 'redux-thunk';
 import { configureStore } from '@reduxjs/toolkit';
 import { applyMiddleware } from 'redux';
 import axios from 'axios';
-const API = 'https://greetngs.herokuapp.com/greetings';
+const API = 'https://greetngs.herokuapp.com/api/v1/messages';
 
 export const GET_MESSAGES = 'FETCH_MESSAGES';
 
