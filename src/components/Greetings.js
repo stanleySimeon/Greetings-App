@@ -4,7 +4,7 @@ import { getMessages } from '../redux/store';
 
 const Greetings = () => {
   const dispatch = useDispatch();
-  const greetings = useSelector((state) => state).message;
+  const greetings = useSelector((state) => state.message);
   useEffect(() => {
     dispatch(getMessages());
   }, [dispatch]);
