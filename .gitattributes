@@ -1,2 +1,2 @@
-*.css = linguist-language=js
+*.css linguist-language=js
 linguist-language=js
