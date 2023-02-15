@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 EJS BRAND <a name="about-project"></a>
+# 📖 GREETINGS APP <a name="about-project"></a>
 
 **[GREETINGS APP](https://greetngs.netlify.app/)** is a simple greetings app that allows developers to find greetings randomly about their programming language of choice.
 
