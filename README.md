@@ -91,7 +91,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your_folder_name (where you want to clone the project)
-  git clone https://github.com/stanleySimeon/greetings-front-end.git
+  git clone https://github.com/stanleySimeon/Greetings-App.git
 ```
 
 ### Install
@@ -99,7 +99,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd greetings-front-end
+  cd Greetings-App
   yarn install
 ```
 
